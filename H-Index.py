@@ -22,7 +22,7 @@
 # 0 <= citations[i] <= 1000
 
 
-def hIndex(nums) -> int:
+def hIndex(nums):
 # Optimal Solution
     n = len(nums)
     buckets = [0] * (n + 1)
